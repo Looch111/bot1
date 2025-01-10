@@ -62,7 +62,7 @@ if ($text === '/start') {
         'reply_markup' => json_encode([
             'inline_keyboard' => [
                 [
-                    ['text' => 'Play GamaDog Now', 'web_app' => ['url' => 'https://app.companybro.com']],
+                    ['text' => 'Play GamaDog Now', 'web_app' => ['url' => 'https://telegram-mini-app-sigma.vercel.app/']],
                     ['text' => 'Join Our Community', 'url' => 'https://t.me/companybrodigital']]
             ]
         ])
