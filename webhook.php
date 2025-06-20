@@ -1,6 +1,6 @@
 <?php
 
-$apiKey = '7792217129:AAHXB_LDoFlrVqyISDFfwpDa4CmmcjafWcQ'; // Your Telegram bot API key
+$apiKey = '8076150584:AAHl-DJ8Usremp4gm-tsBBFgiNy_0mmyv5M'; // Your Telegram bot API key
 $apiUrl = "https://api.telegram.org/bot$apiKey/";
 
 // Get the incoming message
@@ -62,7 +62,7 @@ if ($text === '/start') {
         'reply_markup' => json_encode([
             'inline_keyboard' => [
                 [
-                    ['text' => 'Play GamaDog Now', 'web_app' => ['url' => 'https://telegram-mini-app-sigma.vercel.app/']],
+                    ['text' => 'Play GamaDog Now', 'web_app' => ['url' => 'https://9000-firebase-studio-1750325090866.cluster-axf5tvtfjjfekvhwxwkkkzsk2y.cloudworkstations.dev']],
                     ['text' => 'Join Our Community', 'url' => 'https://t.me/companybrodigital']]
             ]
         ])
